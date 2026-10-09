@@ -1,0 +1,154 @@
+.callout {
+  border-left: 4px solid #facc15;
+  background: #fefce8;
+  padding: 0.6rem 1rem;
+  border-radius: 0.3rem;
+}
+
+.ejemplo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.ej-card {
+  border: 2px solid #e2e8f0;
+  border-radius: 0.6rem;
+  padding: 0.8rem 1.2rem;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.ej-card p { margin: 0; }
+.ej-letter {
+  font-weight: 700;
+  color: #2563eb;
+}
+
+.fase {
+  display: grid;
+  grid-template-columns: 2rem 20rem 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+.fase-n {
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 999px;
+  background: #0f172a;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.regla-grupo {
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 0.6rem 0.9rem;
+  line-height: 1.9;
+}
+.regla-grupo p { margin: 0; }
+.regla-tit {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #475569;
+  margin-bottom: 0.3rem;
+}
+
+.patron {
+  border: 2px solid #cbd5e1;
+  border-radius: 0.6rem;
+  padding: 0.6rem 1rem;
+  min-width: 8rem;
+}
+
+.fases-anchas .fase {
+  grid-template-columns: 2rem 14rem 1fr;
+}
+
+.cuadro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.22em;
+}
+.cuadro-n {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.vista-fila {
+  display: grid;
+  grid-template-columns: 9rem 1fr;
+  align-items: center;
+}
+.vista-t {
+  font-size: 0.9rem;
+  color: #64748b;
+}
+
+.regla-nueva {
+  border: 2px solid #059669;
+  background: #ecfdf5;
+}
+
+.tabla-compacta th,
+.tabla-compacta td {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.vista-fila3 {
+  display: grid;
+  grid-template-columns: 5rem auto 1fr;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.medida {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.medida .vista-t {
+  width: 7rem;
+}
+.medida .sep {
+  color: #94a3b8;
+  font-size: 1.4rem;
+}
+
+.reglas-c .regla-grupo {
+  font-size: 0.95rem;
+}
+
+.marca-nueva {
+  background: #d1fae5;
+  border-radius: 0.3rem;
+  padding: 0.1rem 0.4rem;
+}
+
+.cuadricula {
+  display: grid;
+  grid-template-columns: auto repeat(3, 2.6rem);
+  align-items: center;
+  justify-items: center;
+  gap: 0.5rem 0.4rem;
+}
+.cu-t {
+  font-size: 0.85rem;
+  color: #64748b;
+}
+.cu-vacia {
+  width: 1.94rem;
+  height: 1.94rem;
+  border: 2px dashed #cbd5e1;
+  border-radius: 0.35rem;
+}

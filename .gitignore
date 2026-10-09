@@ -1,0 +1,10 @@
+# PDFs del Tema 1
+Tema 1/*.pdf
+
+# Capturas de WhatsApp
+*.jpeg
+  
+# Dependencias y builds
+node_modules/
+dist/
+.slidev/
