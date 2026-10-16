@@ -42,29 +42,7 @@ Primero las $a$, luego las $b$, y como mucho $m^2$ aes si hay $m$ bes.
 
 ---
 
-# ¿Por qué no es libre de contexto?
-
-Bombeo con $z = a^{N^2} b^N$, $\;z = uvwxy$, $\;|vwx| \le N$, $\;|vx| \ge 1$:
-
-<v-clicks>
-
-- **$vx$ sólo tiene $a$'s**: con $i = 2$ hay más de $N^2$ aes y sólo $N$ bes. ❌
-- **$vx$ sólo tiene $b$'s**: con $i = 0$ quedan $N^2$ aes y menos de $N$ bes. ❌
-- **$v$ o $x$ mezclan letras**: con $i = 2$ aparece una $b$ antes que una $a$. ❌
-- **$v = a^s$, $x = b^t$** con $s, t \ge 1$: con $i = 0$ queda $a^{N^2 - s} b^{N - t}$, y
-  $(N - t)^2 \le N^2 - (2N - 1) < N^2 - s\;$ porque $s \le N - 1$. ❌
-
-</v-clicks>
-
-<div v-click class="callout mt-6">
-
-En todos los casos sale una palabra fuera del lenguaje, así que **no es libre de contexto**.
-
-</div>
-
----
-
-# La idea: un cuadrado que no hace falta llenar
+# Idea 
 
 En el b) cada vuelta escribía **una $a$ por cada $Y$**: en total $m \cdot m$ aes. Ahora:
 
